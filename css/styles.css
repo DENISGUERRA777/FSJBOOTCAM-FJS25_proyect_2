@@ -1,0 +1,274 @@
+/*--container*/
+.container{
+    display: flex;
+    flex-direction: column;
+}
+/*--HEADER--*/
+
+
+.container .header-container .logo-container{
+    background-color: #a83338;
+}
+
+.container .header-container .navbar-container nav{
+    background-color: #f1f1f1 !important;
+}
+
+.container .header-container .navbar-container nav .container-fluid .d-flex button{
+    color: #a83338;
+    border-color: #a83338;
+}
+
+.container .header-container .navbar-container nav .container-fluid .d-flex button:hover{
+    color: white;
+    background-color: #a83338;
+}
+
+.container .header-container .navbar-container nav .container-fluid .d-flex input:active{
+    border-color: #a83338 !important;
+}
+
+/*--Main--*/
+.container .main-container{
+    align-items: center !important;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+
+.container .main-container .banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    background-color: white;
+    padding: 5%;
+}
+.container .main-container .banner-container div{
+    display: flex;
+    flex-direction: column;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.container .main-container .banner-container a {
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.container .main-container .banner-container a img{
+    width: 90%;
+    border-radius: 5%;
+}
+/**/
+.container .main-container .slider-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #a83338;
+    padding: 3%;
+    border-radius: 5px;
+    height: 40%;
+
+}
+.container .main-container .slider-container div{
+    display: flex;
+    overflow-x: scroll;
+    width: 100%;
+    object-fit: cover;
+}
+
+.container .main-container .slider-container div::-webkit-scrollbar{
+    position: absolute;
+    z-index: -1;
+}
+
+.container .main-container .slider-container div a{
+    border-radius: 5px;
+    flex: 0 0 auto;
+    object-fit: cover;
+    background-color: white;
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    width: 12%;
+}
+.container .main-container .slider-container div a img{
+   height: 60%;
+   border-radius: 5px;
+}
+.container .main-container .slider-container div a p{
+    width: 80%;
+    margin: 0;
+    height: 15%;
+    line-height: 100%;
+    color: black;
+    display: flex;
+    font-size: 0.8vw;
+}
+.container .main-container .slider-container div a button{
+    border-radius: 5px;
+    color: white;
+    background-color: white;
+    border: 0;
+    width: 90%;
+    margin-left: 5%;
+    font-size: 1vh;
+}
+.container .main-container .slider-container div a button:hover{
+    background-color: #a83338;
+}
+/**/
+.container .main-container .category-container{
+    height: 30vh;
+    align-items: center;
+    object-fit: cover;
+    margin:5%;
+}
+.container .main-container .category-container .circles-container{
+    display: flex;
+    align-items: center;
+}
+.container .main-container .category-container .circles-container .card-circles-conmtainer{
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    align-items: center;
+}
+.container .main-container .category-container .circles-container .card-circles-conmtainer{
+    font-size: 1vh;
+    color: black;
+}
+.container .main-container .category-container .circles-container a img{
+    width: 100%;
+}
+/**/
+.container .main-container .promos-container{
+    display: flex;
+    align-items: center;
+}
+.container .main-container .promos-container section{
+    width: 50%;
+    height: 100%;
+}
+.container .main-container .promos-container  .aires-container a{
+    object-fit: cover;
+}
+.container .main-container .promos-container  .aires-container img{
+    width: 100%;
+    height: 100%;
+}
+.container .main-container .promos-container .electrodo-container{
+    display: flex;
+    flex-direction: column;
+}
+.container .main-container .promos-container .electrodo-container img{
+    width: 100%;
+    margin-left: 1%;
+}
+.container .main-container .promos-container .electrodo-container #img-cuidado{
+    margin-bottom: 1%;
+}
+.container .main-container .promos-container .electrodo-container #img-electrodo{
+    margin-top: 1%;
+}
+
+/*--FOOTER--*/
+.container .footer-container{
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    
+}
+.container .footer-container .contact-container{
+    display: flex;
+    background-color: #f1f1f1;
+    width: 100vw;
+    justify-content: space-between;
+}
+.container .footer-container .contact-container .email-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
+.container .footer-container .contact-container .email-container .Suscribirme-container{
+    display: flex;
+    flex-direction: column;
+}
+.container .footer-container .contact-container .email-container .Suscribirme-container img{
+    object-fit: cover;
+    width: 100%;
+}
+.container .footer-container .contact-container .email-container section{
+    display: flex;
+    align-items: center;
+}
+.container .footer-container .contact-container .email-container .phone-img{
+    object-fit: scale-down;
+    height: 5vh;
+}
+
+.container .footer-container .contact-container .email-container .nation-container ul{
+    background-color: black;
+    padding: 1%;
+    border-radius: 5%;
+    max-width: max-content;
+}
+.container .footer-container .contact-container .email-container .nation-container ul li{
+    display: none;
+}
+
+.container .footer-container .contact-container .email-container .nation-container ul li a{
+    color: #f1f1f1;
+    text-decoration: none;
+} 
+
+.container .footer-container .contact-container .email-container .nation-container ul:hover > li{
+    display:block;
+
+}
+.container .footer-container .contact-container .services-container{
+    display: flex;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.container .footer-container .contact-container .services-container section ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.container .footer-container .contact-container .services-container section{
+    margin-right:5%;
+    margin-top: 5%;
+}
+
+.container .footer-container .contact-container .services-container section li{
+    list-style: none;
+}
+/**/
+.container .footer-container .pay-container{
+    display: flex;
+    width: 80vw;
+    align-items: center;
+}
+.container .footer-container .pay-container div{
+    margin-right: 3%;
+}
+/**/
+@media (max-width: 1100px){
+    .container .footer-container .contact-container .services-container{
+        flex-direction: column;
+
+    }
+    .container .footer-container .contact-container .services-container li{
+        display: none;
+    }
+    .container .footer-container .contact-container .services-container ul:hover > li{
+        display: block;
+    }
+}
